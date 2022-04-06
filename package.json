@@ -1,0 +1,21 @@
+{
+  "name": "babel-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "umi-test --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:one-sdk/babel-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@umijs/test": "^3.5.21",
+    "jest": "^27.4.3",
+    "prettier": "^2.6.2"
+  }
+}
