@@ -1,11 +1,10 @@
 {
   "name": "babel-plugin-import-mf",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "babel-plugin-import-mf",
   "main": "dist/index.js",
   "module": "es/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "beta": "npm publish --tag beta",
     "prepublishOnly": "npm run build",
     "build": "father build"
