@@ -1,7 +1,7 @@
 {
-  "name": "babel-plugin-import-mf",
-  "version": "0.0.3",
-  "description": "babel-plugin-import-mf",
+  "name": "babel-plugin-no-debugger",
+  "version": "0.0.1",
+  "description": "babel-plugin-no-mf",
   "main": "dist/index.js",
   "module": "es/index.js",
   "scripts": {
