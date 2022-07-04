@@ -16,7 +16,7 @@ const DEFAULT_MF_LIBS: string[] = [
 export default function() {
   return {
     visitor: {
-      ImportDeclaration(path: traverse.NodePath<t.ImportDeclaration>, state) {
+      ImportDeclaration(path: traverse.NodePath<t.ImportDeclaration>, state: any) {
         const {
           specifiers,
           source,
